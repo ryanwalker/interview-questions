@@ -1,3 +1,5 @@
+package programming;
+
 import junit.framework.Assert;
 import org.testng.annotations.Test;
 
@@ -95,7 +97,13 @@ public class JavaUtilityTest {
         Assert.assertEquals(sortedContacts.get(1).getFirstName(), "Bob");
         Assert.assertEquals(sortedContacts.get(2).getFirstName(), "Jill");
         Assert.assertEquals(sortedContacts.get(3).getFirstName(), "Garmino");
-        ;
+    }
+
+    @Test
+    public void testListToReversedInteger() {
+        final int number = utility.listToReversedInteger(Arrays.asList("7", "9", "3", "7"));
+        Assert.assertEquals(number, 7397);
+
     }
 
 }
