@@ -11,10 +11,15 @@ Interview Questions
 * Load Balancing
 * Deployment
 * CI/CD
-* Circuit Breakers and Timeouts
 * Decompose a Monolith
 * Asynchronous vs synchronous communication
 * Testing - unit, integration, e2e, functional, PACT
+* Stability, capacity, load, stress, etc. testing
+  * Circuit Breakers and Timeouts
+
+
+
+
 
 
 
